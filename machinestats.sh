@@ -4,7 +4,7 @@
 
 date;
 
-#System Uptime and Logins 
+#System Uptime and Recent Logins 
 echo "uptime:"
     uptime
 echo "Currently connected:"
@@ -21,7 +21,7 @@ echo "Disk and memory stats:"
 echo "--------------------"
 
 #Processes and resource usage 
-#runs top in batch mode for output and show most resource intense processes 
+#Runs top in batch mode for output and shows most resource intense processes 
 echo "Processes and Resources:"
     top -b |head -3
 echo
